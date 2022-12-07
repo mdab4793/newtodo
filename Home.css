@@ -1,0 +1,49 @@
+div {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px;
+  margin-top: 0;
+}
+.container {
+  width: 100%;
+  height: 1000px;
+  background-color: wheat;
+}
+.header {
+  text-align: center;
+  margin-top: 0;
+}
+.todo-write {
+  width: 60px;
+  position: relative;
+  left: 400px;
+}
+
+.write-popup-background {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+.write-popup-head {
+  display: flex;
+}
+.write-popup-background h4 {
+  padding-left: 80px;
+}
+.write-popup-head button {
+  margin: 20px;
+  height: 30px;
+  position: relative;
+  left: 20px;
+  background-color: rgb(0, 0, 0, 0);
+  border-style: none;
+}
+
+.write-popup-input {
+  margin: 30px;
+}
+.todo-delete {
+  background-color: wheat;
+}
